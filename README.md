@@ -70,6 +70,14 @@
     class="svelte-w3w8f2"
   ><!-- HTML_TAG_START --><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Youtube</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>EBtsu6naB8g<span class="token punctuation">"</span></span> <span class="token attr-name">altThumb=</span><span class="token language-javascript"><span class="token punctuation">{</span><span class="token boolean">true</span><span class="token punctuation">}</span></span> <span class="token punctuation">/></span></span><!-- HTML_TAG_END -->
 </pre>
+  <h2 data-svelte-h="svelte-1y3xwn7">Specific aspect-ratio</h2>
+  <p data-svelte-h="svelte-nph3bp">
+    Some videos videos require specific aspect ratios. This lib calculates it from the video but you can add one yourself.
+  </p>
+  <pre
+    class="svelte-w3w8f2"
+  ><!-- HTML_TAG_START --><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Youtube</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>EBtsu6naB8g<span class="token punctuation">"</span></span> <span class="token attr-name">aspectRatio=</span><span class="token language-javascript"><span class="token punctuation">{</span><span class="token boolean">'16/9'</span><span class="token punctuation">}</span></span> <span class="token punctuation">/></span></span><!-- HTML_TAG_END -->
+</pre>
   <h2 data-svelte-h="svelte-wdcdcx">Disable animations</h2>
   <p data-svelte-h="svelte-1nd7yj2">
     You can disable animation that is displayed when the play button is clicked

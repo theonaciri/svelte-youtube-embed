@@ -9,6 +9,7 @@
     altThumb = false,
     animations = true,
     thumbnail,
+    aspectRatio,
     play_button,
   } = $props();
 
@@ -32,7 +33,7 @@
 
 <div
   class="you__tube"
-  style="--aspect-ratio:{width / height || '16/9'}"
+  style="--aspect-ratio:{aspectRatio || width / height || '16/9'}"
   {title}
 >
   {#if play}
