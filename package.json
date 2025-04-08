@@ -13,7 +13,7 @@
   "homepage": "https://embed.sveltethemes.dev/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharu725/youtube-embed.git"
+    "url": "git+https://github.com/theonaciri/svelte-carousel.git"
   },
   "exports": {
     ".": {
